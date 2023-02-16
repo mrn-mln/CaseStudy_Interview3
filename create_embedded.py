@@ -40,5 +40,3 @@ with mlflow.start_run(run_name='first embedded creator on db.csv v1.0') as run:
 
     print(f'Artifact uri = {mlflow.get_artifact_uri}')
     print(f'RunID = {run.info.run_uuid}')
-
-)
